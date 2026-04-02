@@ -1,26 +1,47 @@
-# Raylib C++ Starter Template
+# 🐍 Snake Game in C++
 
-Raylib C++ Starter Template for Visual Studio Code on Windows.
+A simple console-based Snake Game built using **C++**.  
+This project focuses on strengthening **DSA, logic building, and core programming skills**.
 
-This demo project contains a bouncing ball raylib example program.
+---
 
-It works with raylib version 4.5.
-Tested on both Windows 10 and Windows 11.
+## 🚀 Features
 
-# Video Tutorial
+- 🎮 Smooth snake movement using keyboard controls  
+- 🍎 Random fruit spawning  
+- 📈 Score tracking system  
+- 🐍 Dynamic snake tail growth  
+- 🔄 Screen wrapping (no wall collision)  
+- 💀 Game over on self-collision  
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+---
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+## 🛠️ Tech Stack
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="https://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+- **Language:** C++  
+- **Libraries:**
+  - `<iostream>`
+  - `<conio.h>`
+  - `<windows.h>`
 
+---
+
+## 🎯 Controls
+
+| Key | Action |
+|-----|--------|
+| W   | Move Up |
+| S   | Move Down |
+| A   | Move Left |
+| D   | Move Right |
+| X   | Exit Game |
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/your-username/snake-game-cpp.git
+cd snake-game-cpp
+g++ snake.cpp -o snake
+./snake
