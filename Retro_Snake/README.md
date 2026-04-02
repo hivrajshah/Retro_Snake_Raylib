@@ -1,47 +1,37 @@
-# 🐍 Snake Game in C++
+# 🐍 Retro Snake Game (Raylib + C++)
 
-A simple console-based Snake Game built using **C++**.  
-This project focuses on strengthening **DSA, logic building, and core programming skills**.
-
----
-
-## 🚀 Features
-
-- 🎮 Smooth snake movement using keyboard controls  
-- 🍎 Random fruit spawning  
-- 📈 Score tracking system  
-- 🐍 Dynamic snake tail growth  
-- 🔄 Screen wrapping (no wall collision)  
-- 💀 Game over on self-collision  
+A modern **Snake Game** built using **C++** and the Raylib library.  
+This version uses **OOP concepts**, **deque data structure**, and smooth rendering with sound effects for an engaging retro experience.
 
 ---
 
-## 🛠️ Tech Stack
+## 🎮 Features
 
-- **Language:** C++  
-- **Libraries:**
-  - `<iostream>`
-  - `<conio.h>`
-  - `<windows.h>`
+- 🧱 Object-Oriented Design (Snake, Food, Game classes)
+- 🔁 Smooth movement using time-based updates
+- 🍎 Random food spawning (avoids snake body)
+- 🔊 Sound effects (eat & game over)
+- 📈 Score & High Score tracking
+- 🎨 Clean retro UI with custom colors
+- 🐍 Snake grows dynamically using `deque`
 
 ---
 
-## 🎯 Controls
+## 🛠️ Technologies Used
 
-| Key | Action |
-|-----|--------|
-| W   | Move Up |
-| S   | Move Down |
-| A   | Move Left |
-| D   | Move Right |
-| X   | Exit Game |
+- C++
+- Raylib
+- Deque (STL)
+- Raymath (Vector operations)
 
 ---
 
 ## ▶️ How to Run
 
+### 1. Install Raylib  
+Visit: https://www.raylib.com/
+
+### 2. Compile the Code  
+
 ```bash
-git clone https://github.com/your-username/snake-game-cpp.git
-cd snake-game-cpp
-g++ snake.cpp -o snake
-./snake
+g++ main.cpp -o snake -lraylib -lopengl32 -lgdi32 -lwinmm
